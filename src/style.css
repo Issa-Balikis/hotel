@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar .h1 {
+    font-size: 3rem;
+    color: wheat;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: rgba(245, 222, 179, 0.815);
+}
+
+.home {
+    background-image: url(../public/images/hotel.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+}
+
+.content .center {
+    font-size: 3.5rem;
+    color: wheat;
+}
+
+.content p {
+    color: white;
+    font-size: 23px;
+    padding: 10px;
+}
+
+button {
+    background-color: black;
+    color: wheat;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: wheat;
+    color: black;
+    transition: .3s;
+}
